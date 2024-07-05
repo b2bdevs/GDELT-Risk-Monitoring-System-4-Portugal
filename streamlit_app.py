@@ -159,7 +159,7 @@ row3 = st.container()
 row4 = st.container()
 
 with row1:
-    st.title("🌍🇵🇹  GDELT Situational Awareness for Portugal!")
+    st.title("🌍  GDELT Situational Awareness for Spain!")
 
     with st.expander("Click me to learn more about this dashboard!"):
         st.markdown("""
