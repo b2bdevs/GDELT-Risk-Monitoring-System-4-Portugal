@@ -13,15 +13,6 @@ import io
 from datetime import timedelta, datetime
 
 # ---------------------------------------------
-# Ocultar el menú superior
-hide_menu_style = """
-        <style>
-        #MainMenu {visibility: hidden;}
-        </style>
-        """
-
-st.markdown(hide_menu_style, unsafe_allow_html=True)
-
 # Initialize Settings
 st.set_page_config(layout="wide")
 
