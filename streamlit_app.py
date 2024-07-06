@@ -1,12 +1,3 @@
-hide_st_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            header {visibility: hidden;}
-            </style>
-            """
-st.markdown(hide_st_style, unsafe_allow_html=True)
-
 # ---------------------------------------------
 # Load Modules
 
@@ -23,6 +14,15 @@ from datetime import timedelta, datetime
 
 # ---------------------------------------------
 # Initialize Settings
+
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
 
 st.set_page_config(layout="wide")
 
