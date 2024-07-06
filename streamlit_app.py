@@ -21,8 +21,6 @@ hide_menu_style = """
         """
 
 st.markdown(hide_menu_style, unsafe_allow_html=True)
-st.write("Hola, esta es mi aplicación de Streamlit sin menú superior.")
-
 
 # Initialize Settings
 st.set_page_config(layout="wide")
