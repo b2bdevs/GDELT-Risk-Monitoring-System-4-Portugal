@@ -13,8 +13,6 @@ import io
 from datetime import timedelta, datetime
 
 # ---------------------------------------------
-st.set_page_config(page_title="Título de la página", layout="wide")
-st.markdown("""<style>#MainMenu {visibility: hidden;} footer {visibility: hidden;}</style>""", unsafe_allow_html=True)
 
 # Initialize Settings
 st.set_page_config(layout="wide")
