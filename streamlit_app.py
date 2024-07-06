@@ -13,14 +13,6 @@ import io
 from datetime import timedelta, datetime
 
 # ---------------------------------------------
-
-hide_menu_style = """
-        <style>
-        #MainMenu {visibility: hidden;}
-        </style>
-        """
-st.markdown(hide_menu_style, unsafe_allow_html=True)
-
 # Initialize Settings
 st.set_page_config(layout="wide")
 
